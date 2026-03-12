@@ -29,6 +29,12 @@ export function Navigation() {
   // Close mobile menu on route change
   useEffect(() => {
     setMenuOpen(false);
+    // Scroll altijd naar boven na een routewissel
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   }, [location.pathname]);
 
   const isActive = (path: string) => {
@@ -39,7 +45,7 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 border-b transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 border-b transition-all duration-500 ease-out ${
         scrolled
           ? "bg-white/95 backdrop-blur-sm border-stone-200 shadow-sm"
           : "bg-transparent border-transparent"
