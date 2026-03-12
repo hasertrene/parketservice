@@ -42,7 +42,7 @@ export function Navigation() {
               <span className={`text-2xl tracking-tight transition-colors ${
                 scrolled ? 'text-stone-800' : 'text-white'
               }`} style={{ fontFamily: 'Playfair Display, serif' }}>
-                Parketservice Hasert & Zn
+                Parketservice Hasert & Zn.
               </span>
               <span className={`text-sm transition-colors ${
                 scrolled ? 'text-stone-500' : 'text-stone-100'
