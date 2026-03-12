@@ -8,42 +8,42 @@ export function Logo({ className = "w-8 h-8" }: { className?: string }) {
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* Visgraat patroon - elegant en simpel */}
-      <g opacity="0.9">
+      {/* Visgraat patroon - iets steviger maar nog steeds elegant */}
+      <g opacity="0.95">
         {/* Eerste rij */}
-        <rect x="20" y="25" width="15" height="4" fill="#92400e" transform="rotate(45 27.5 27)" />
-        <rect x="35" y="25" width="15" height="4" fill="#b45309" transform="rotate(-45 42.5 27)" />
+        <rect x="20" y="24" width="18" height="6" rx="2" fill="#92400e" transform="rotate(45 29 27)" />
+        <rect x="35" y="24" width="18" height="6" rx="2" fill="#b45309" transform="rotate(-45 44 27)" />
         
         {/* Tweede rij */}
-        <rect x="20" y="35" width="15" height="4" fill="#b45309" transform="rotate(45 27.5 37)" />
-        <rect x="35" y="35" width="15" height="4" fill="#92400e" transform="rotate(-45 42.5 37)" />
+        <rect x="20" y="34" width="18" height="6" rx="2" fill="#b45309" transform="rotate(45 29 37)" />
+        <rect x="35" y="34" width="18" height="6" rx="2" fill="#92400e" transform="rotate(-45 44 37)" />
         
         {/* Derde rij */}
-        <rect x="20" y="45" width="15" height="4" fill="#92400e" transform="rotate(45 27.5 47)" />
-        <rect x="35" y="45" width="15" height="4" fill="#b45309" transform="rotate(-45 42.5 47)" />
+        <rect x="20" y="44" width="18" height="6" rx="2" fill="#92400e" transform="rotate(45 29 47)" />
+        <rect x="35" y="44" width="18" height="6" rx="2" fill="#b45309" transform="rotate(-45 44 47)" />
         
         {/* Vierde rij */}
-        <rect x="55" y="25" width="15" height="4" fill="#b45309" transform="rotate(45 62.5 27)" />
-        <rect x="70" y="25" width="15" height="4" fill="#92400e" transform="rotate(-45 77.5 27)" />
+        <rect x="55" y="24" width="18" height="6" rx="2" fill="#b45309" transform="rotate(45 64 27)" />
+        <rect x="70" y="24" width="18" height="6" rx="2" fill="#92400e" transform="rotate(-45 79 27)" />
         
         {/* Vijfde rij */}
-        <rect x="55" y="35" width="15" height="4" fill="#92400e" transform="rotate(45 62.5 37)" />
-        <rect x="70" y="35" width="15" height="4" fill="#b45309" transform="rotate(-45 77.5 37)" />
+        <rect x="55" y="34" width="18" height="6" rx="2" fill="#92400e" transform="rotate(45 64 37)" />
+        <rect x="70" y="34" width="18" height="6" rx="2" fill="#b45309" transform="rotate(-45 79 37)" />
         
         {/* Zesde rij */}
-        <rect x="55" y="45" width="15" height="4" fill="#b45309" transform="rotate(45 62.5 47)" />
-        <rect x="70" y="45" width="15" height="4" fill="#92400e" transform="rotate(-45 77.5 47)" />
+        <rect x="55" y="44" width="18" height="6" rx="2" fill="#b45309" transform="rotate(45 64 47)" />
+        <rect x="70" y="44" width="18" height="6" rx="2" fill="#92400e" transform="rotate(-45 79 47)" />
         
         {/* Onderste rijen */}
-        <rect x="20" y="55" width="15" height="4" fill="#b45309" transform="rotate(45 27.5 57)" />
-        <rect x="35" y="55" width="15" height="4" fill="#92400e" transform="rotate(-45 42.5 57)" />
-        <rect x="55" y="55" width="15" height="4" fill="#92400e" transform="rotate(45 62.5 57)" />
-        <rect x="70" y="55" width="15" height="4" fill="#b45309" transform="rotate(-45 77.5 57)" />
+        <rect x="20" y="54" width="18" height="6" rx="2" fill="#b45309" transform="rotate(45 29 57)" />
+        <rect x="35" y="54" width="18" height="6" rx="2" fill="#92400e" transform="rotate(-45 44 57)" />
+        <rect x="55" y="54" width="18" height="6" rx="2" fill="#92400e" transform="rotate(45 64 57)" />
+        <rect x="70" y="54" width="18" height="6" rx="2" fill="#b45309" transform="rotate(-45 79 57)" />
         
-        <rect x="20" y="65" width="15" height="4" fill="#92400e" transform="rotate(45 27.5 67)" />
-        <rect x="35" y="65" width="15" height="4" fill="#b45309" transform="rotate(-45 42.5 67)" />
-        <rect x="55" y="65" width="15" height="4" fill="#b45309" transform="rotate(45 62.5 67)" />
-        <rect x="70" y="65" width="15" height="4" fill="#92400e" transform="rotate(-45 77.5 67)" />
+        <rect x="20" y="64" width="18" height="6" rx="2" fill="#92400e" transform="rotate(45 29 67)" />
+        <rect x="35" y="64" width="18" height="6" rx="2" fill="#b45309" transform="rotate(-45 44 67)" />
+        <rect x="55" y="64" width="18" height="6" rx="2" fill="#b45309" transform="rotate(45 64 67)" />
+        <rect x="70" y="64" width="18" height="6" rx="2" fill="#92400e" transform="rotate(-45 79 67)" />
       </g>
     </svg>
   );

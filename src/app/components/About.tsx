@@ -199,7 +199,7 @@ export function About() {
           </p>
           <a
             href="mailto:info@parketservicehasert.nl"
-            className="inline-block px-8 py-3 bg-amber-800 text-white hover:bg-amber-900 transition-colors"
+            className="inline-flex items-center justify-center px-8 py-3 bg-amber-800 text-white rounded-md shadow-sm hover:bg-amber-900 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 active:shadow-sm transition-all"
           >
             Stuur een bericht
           </a>
